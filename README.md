@@ -1,22 +1,8 @@
-# reduxToolkit
-This project is a single-page web application built using React and Redux Toolkit. It aims to provide a structured and efficient way to manage state in a React application while leveraging the power of Redux for state management.
-# Features
-Redux Toolkit Integration: Utilizes Redux Toolkit to simplify Redux boilerplate code, making it easier to write and maintain Redux logic.
+# React + Vite
 
-Component-based Architecture: Implements a component-based architecture using React, allowing for better code organization, reusability, and maintainability.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-State Management with Redux: Manages application state using Redux for global state management, providing a centralized store for storing and updating data.
+Currently, two official plugins are available:
 
-Asynchronous Data Fetching: Demonstrates asynchronous data fetching using Redux Toolkit's createAsyncThunk API, enabling seamless integration with APIs and asynchronous operations.
-
-UI Components with Material-UI: Utilizes Material-UI, a popular React UI framework, for building user interface components, ensuring a consistent and visually appealing design.
-
-# Getting Started
-To get started with the project, follow these steps:
-
-Clone the repository: git clone <repository-url>
-Install dependencies: npm install
-Start the development server: npm start
-Open your browser and navigate to http://localhost:3000 to view the application.
-# Contributing
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve the project.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
